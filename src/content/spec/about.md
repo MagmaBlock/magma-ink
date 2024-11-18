@@ -42,4 +42,4 @@
 
 本站是由 Astro 静态站点生成器开发的完全静态站，源码可以在 GitHub 上找到：
 
-::github{repo="MagmaBlock/MagmaInk"}
+::github{repo="MagmaBlock/magma-ink"}
