@@ -31,7 +31,7 @@ const links: { title: string; link: string; desc: string; img: string }[] = [
   {
     link: "https://moe.tips",
     title: "萌 (//∇//) 贴士",
-    img: "https://moe.tips/wp-content/uploads/2021/11/33144fad212d1.jpg",
+    img: "https://img.cdn.18g.me/2022/02/19/d8d559274a2f6.jpg",
     desc: "介绍愿你把酒执剑，归来仍是少年",
   },
   {
