@@ -3,6 +3,9 @@
 import { profileConfig } from '../config'
 import { url } from '../utils/url-utils'
 const currentYear = new Date().getFullYear()
+
+const days = new Date().getTime() - new Date("2020/08/08").getTime()
+const numberOfDays = (days / (1000 * 60 * 60 * 24)).toFixed()
 ---
 
 <!--<div class="border-t border-[var(&#45;&#45;primary)] mx-16 border-dashed py-8 max-w-[var(&#45;&#45;page-width)] flex flex-col items-center justify-center px-6">-->
@@ -10,11 +13,17 @@ const currentYear = new Date().getFullYear()
 <!--<div class="transition bg-[oklch(92%_0.01_var(&#45;&#45;hue))] dark:bg-black rounded-2xl py-8 mt-4 mb-8 flex flex-col items-center justify-center px-6">-->
 <div class="transition border-dashed border-[oklch(85%_0.01_var(--hue))] dark:border-white/15 rounded-2xl mb-12 flex flex-col items-center justify-center px-6">
     <div class="transition text-50 text-sm text-center">
-        &copy; <span id="copyright-year">{currentYear}</span> {profileConfig.name}. All Rights Reserved. /
-        <a class="transition link text-[var(--primary)] font-medium" target="_blank" href={url('rss.xml')}>RSS</a> /
-        <a class="transition link text-[var(--primary)] font-medium" target="_blank" href={url('sitemap-index.xml')}>Sitemap</a><br>
-        Powered by
-        <a class="transition link text-[var(--primary)] font-medium" target="_blank" href="https://astro.build">Astro</a> &
-        <a class="transition link text-[var(--primary)] font-medium" target="_blank" href="https://github.com/saicaca/fuwari">Fuwari</a>
+        本站的所有文章、界面（有另外声明的除外）均在
+        <a class="transition link text-[var(--primary)] font-medium" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans">
+            署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)
+        </a>
+        许可协议下提供。<br>
+        如果您需要转载上述内容，请附带来源（Magma Ink、@岩浆块Magma 或 原文链接），并且不可将其使用于商业用途。<br>
+        © 2020-{currentYear} {profileConfig.name}. 本站已运行 {numberOfDays} 天。<br><br>
+        Powered by <a class="transition link text-[var(--primary)] font-medium" target="_blank" href="https://github.com/saicaca/fuwari">Fuwari</a><br>
+        <a class="transition link text-[var(--primary)] font-medium" href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2021021978号-2</a> · 
+        <a class="transition link text-[var(--primary)] font-medium" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=41071102000548">
+            <span>豫公网安备41071102000548号</span>
+        </a>
     </div>
 </div>
