@@ -173,6 +173,12 @@ const links: { title: string; link: string; desc: string; img: string }[] = [
     link: "https://peter267.zeabur.app/",
     img: "https://wmimg.com/i/1169/2024/09/66e8b5d8e0843.jpg",
   },
+  {
+    title: "Ethan",
+    desc: "Don't stay awake for too long.",
+    link: "https://hanlife02.com.cn/",
+    img: "https://hanlife02.com.cn/api/v2/objects/avatar/evcvs61h0ajgvoai07.jpeg",
+  }
 ];
 
 const randomLinks = computed(() => links.sort(() => Math.random() - 0.5));
