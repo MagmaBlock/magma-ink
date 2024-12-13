@@ -26,7 +26,7 @@ draft: false
 
 本站目前暂停了评论系统，您可以使用以下几种方式申请：
 
-- [在 GitHub 上发送 Issue](https://github.com/MagmaBlock/MagmaInk/issues/new/choose)
+- [在 GitHub 上发送 Issue](https://github.com/MagmaBlock/magma-ink/issues/new/choose)
 - 向我发邮件：[magmablock@qq.com](mailto:magmablock@qq.com) 或 [mail@magma.ink](mailto:mail@magma.ink)
 - [通过联系方式联系我](/contact)。
 
