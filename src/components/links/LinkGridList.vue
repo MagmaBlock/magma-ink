@@ -178,7 +178,13 @@ const links: { title: string; link: string; desc: string; img: string }[] = [
     desc: "Don't stay awake for too long.",
     link: "https://hanlife02.com.cn/",
     img: "https://hanlife02.com.cn/api/v2/objects/avatar/evcvs61h0ajgvoai07.jpeg",
-  }
+  },
+  {
+    link: "https://blog.woo.moe",
+    title: "Nikoのblog",
+    img: "https://data.woo.moe/img/ico/blog200.png",
+    desc: "雨嶼沫",
+  },
 ];
 
 const randomLinks = computed(() => links.sort(() => Math.random() - 0.5));
