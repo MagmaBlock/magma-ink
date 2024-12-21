@@ -185,6 +185,12 @@ const links: { title: string; link: string; desc: string; img: string }[] = [
     img: "https://data.woo.moe/img/ico/blog200.png",
     desc: "雨嶼沫",
   },
+  {
+    link: "https://sbsb.life",
+    title: "Tanの笔记",
+    img: "https://pic.imgdb.cn/item/637dbff316f2c2beb1d0d922.jpg",
+    desc: "一直快乐",
+  },
 ];
 
 const randomLinks = computed(() => links.sort(() => Math.random() - 0.5));
