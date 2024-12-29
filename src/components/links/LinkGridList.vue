@@ -191,6 +191,12 @@ const links: { title: string; link: string; desc: string; img: string }[] = [
     img: "https://pic.imgdb.cn/item/637dbff316f2c2beb1d0d922.jpg",
     desc: "一直快乐",
   },
+  {
+    title: "林七湖的日记站",
+    desc: "这是什么？好吃的？吃一口",
+    link: "https://blog.linqihu.top",
+    img: "https://blog.linqihu.top/pictures/智乃天下第一.jpg",
+  },
 ];
 
 const randomLinks = computed(() => links.sort(() => Math.random() - 0.5));
