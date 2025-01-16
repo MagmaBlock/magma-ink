@@ -197,6 +197,12 @@ const links: { title: string; link: string; desc: string; img: string }[] = [
     link: "https://blog.linqihu.top",
     img: "https://blog.linqihu.top/pictures/智乃天下第一.jpg",
   },
+  {
+    title: "AULyPcのBlog",
+    desc: "今日も生きててえらい ☁",
+    link: "https://blog.aulypc0x0.online/",
+    img: "https://blog.aulypc0x0.online/favicon/favicon_amiya.webp",
+  },
 ];
 
 const randomLinks = computed(() => links.sort(() => Math.random() - 0.5));
