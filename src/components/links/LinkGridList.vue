@@ -170,7 +170,7 @@ const links: { title: string; link: string; desc: string; img: string }[] = [
   {
     title: "Peter",
     desc: "无限进步",
-    link: "https://peter267.zeabur.app/",
+    link: "https://peter267.github.io/",
     img: "https://wmimg.com/i/1169/2024/09/66e8b5d8e0843.jpg",
   },
   {
