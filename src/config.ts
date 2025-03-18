@@ -74,11 +74,6 @@ export const profileConfig: ProfileConfig = {
       url: "https://space.bilibili.com/6281315",
     },
     {
-      name: "抖音",
-      icon: "fa6-brands:tiktok",
-      url: "https://www.douyin.com/user/MS4wLjABAAAA94Smu-tBGivotmvEz1gZW9TvdhDxd0eIQex67Xma72g",
-    },
-    {
       name: "Mastodon",
       icon: "fa6-brands:mastodon",
       url: "https://hydrate.space/@magma",
@@ -87,6 +82,11 @@ export const profileConfig: ProfileConfig = {
       name: "邮件",
       icon: "material-symbols:mail",
       url: "mailto:magmablock@qq.com",
+    },
+    {
+      name: "RSS",
+      icon: "fa6-solid:rss",
+      url: "/rss.xml",
     },
   ],
 }
