@@ -41,13 +41,16 @@ draft: false
 
 Tip: 长时间无法打开、多次复查已不符合要求的网站会被移动到此处。
 
-若您的域名有变动，可以留言更新；若网站已恢复，我将会在发现后第一时间移回上方。
+若您的域名有变动，可以留言更新；若网站已恢复且仍有本站友联，我将会在发现后第一时间移回上方。
 
 - [小林の小站](https://dylanlynn.top/)
 - [绫依的肉包砸](https://www.dreamchaser-luzeyu.info/)
 - [DragonJay](https://blog.furrysp.top/) 2024 年 3 月 14 日测试发现全球无法打开。
 - [ltm 的百宝箱](https://ltm.ink/) 2024 年 3 月 14 日测试发现指向过期主机。
 - [摆渡娘](https://www.baiduniang.com/) SSL 过期数月，但站点仍在运行，恢复正常后将会恢复友联。
-- [Dioxide.CNの时间轴](https://dioxide-cn.ink) 站点无文章且找不到本站友联
+- [Dioxide.CN の时间轴](https://dioxide-cn.ink) 站点无文章且找不到本站友联
 - [CasecoRI](https://www.casecori.top/) 找不到本站友联
 - [无名博客](https://wuminboke.site/) 站点没有内容 / 故障
+- [悲催の记事账簿](https://blog.awsl.love/) 2024 年 7 月 18 日至 2025 年 3 月 18 日多次测试均无法打开
+- [不可方思](https://irr.ink/) 2025 年 3 月 18 日无法打开
+- [Eucalyptus](https://www.limingliang.top) 2025 年 3 月 18 日无法打开

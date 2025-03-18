@@ -40,13 +40,13 @@ const links: { title: string; link: string; desc: string; img: string }[] = [
     img: "https://kokodayo.site/usr/uploads/fixed/head_640.jpg",
     desc: "Qine的个人小站",
   },
-  {
-    // 2024年7月18日 打不开
-    link: "https://blog.awsl.love/",
-    title: "悲催の记事账簿",
-    img: "https://blog.awsl.love/logo2.webp",
-    desc: "– 水能载舟，亦能覆舟 –",
-  },
+  // {
+  //   // 2024年7月18日 打不开
+  //   link: "https://blog.awsl.love/",
+  //   title: "悲催の记事账簿",
+  //   img: "https://blog.awsl.love/logo2.webp",
+  //   desc: "– 水能载舟，亦能覆舟 –",
+  // },
   {
     link: "https://www.moec.top",
     title: "老兄de博客",
@@ -107,24 +107,24 @@ const links: { title: string; link: string; desc: string; img: string }[] = [
     img: "https://www.frostfox.cn/logo.png",
     desc: "开源创新，自由共享！",
   },
-  {
-    link: "https://irr.ink/",
-    title: "不可方思",
-    img: "https://irr.ink/logo.jpg",
-    desc: "Like tears in rain.",
-  },
+  // {
+  //   link: "https://irr.ink/",
+  //   title: "不可方思",
+  //   img: "https://irr.ink/logo.jpg",
+  //   desc: "Like tears in rain.",
+  // },
   // {
   //   link: "https://www.casecori.top/",
   //   title: "CasecoRI",
   //   img: "https://cdn.casecori.top/gh/cystee/om/favicon.png",
   //   desc: "高智熵博主",
   // },
-  {
-    link: "https://www.limingliang.top",
-    title: "Eucalyptus",
-    img: "http://limingliang.top/wp-content/uploads/2023/07/lanan.png",
-    desc: "我亦无他，惟手熟尔",
-  },
+  // {
+  //   link: "https://www.limingliang.top",
+  //   title: "Eucalyptus",
+  //   img: "http://limingliang.top/wp-content/uploads/2023/07/lanan.png",
+  //   desc: "我亦无他，惟手熟尔",
+  // },
   {
     link: "https://arthals.ink/",
     title: "尘埃舞流萤",
