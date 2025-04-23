@@ -203,6 +203,12 @@ const links: { title: string; link: string; desc: string; img: string }[] = [
     link: "https://blog.aulypc0x0.online/",
     img: "https://blog.aulypc0x0.online/favicon/favicon_amiya.webp",
   },
+  {
+    title: "imxizhenのBlog",
+    img: "https://q1.qlogo.cn/g?b=qq&nk=89525295&s=640", 
+    desc: "永远相信美好的事情即将发生.",  
+    link: "https://www.imxizhen.asia",
+  }
 ];
 
 const randomLinks = computed(() => links.sort(() => Math.random() - 0.5));
