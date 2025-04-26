@@ -176,8 +176,8 @@ const links: { title: string; link: string; desc: string; img: string }[] = [
   {
     title: "Ethan",
     desc: "Don't stay awake for too long.",
-    link: "https://hanlife02.com.cn/",
-    img: "https://hanlife02.com.cn/api/v2/objects/avatar/evcvs61h0ajgvoai07.jpeg",
+    link: "https://hanlife02.com",
+    img: "https://hanlife02.com/api/v2/objects/avatar/evcvs61h0ajgvoai07.jpeg",
   },
   {
     link: "https://blog.woo.moe",
