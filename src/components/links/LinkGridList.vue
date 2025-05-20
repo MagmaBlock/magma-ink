@@ -208,6 +208,12 @@ const links: { title: string; link: string; desc: string; img: string }[] = [
     img: "https://q1.qlogo.cn/g?b=qq&nk=89525295&s=640", 
     desc: "永远相信美好的事情即将发生.",  
     link: "https://www.imxizhen.asia",
+  },
+  {
+    title: "划水",
+    img: "https://www.hsuii.com/images/1747640853300.png", 
+    desc: "上班划划水提升自己",  
+    link: "https://www.hsuii.com/",
   }
 ];
 
