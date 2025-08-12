@@ -16,12 +16,12 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: true,
-    src: 'assets/images/banner/hyory-liu-n4018exJ9kw-unsplash.jpg',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+    src: 'assets/images/banner/jerry-wang-x5DbmzUBg4g-unsplash.jpg',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: 'center',      // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
     credit: {
       enable: true,         // Display the credit text of the banner image
-      text: 'Hyory Liu',              // Credit text to be displayed
-      url: 'https://unsplash.com/photos/brown-wooden-gazebo-near-body-of-water-during-night-time-n4018exJ9kw'                // (Optional) URL link to the original artwork or artist's page
+      text: 'Jerry Wang',              // Credit text to be displayed
+      url: 'https://unsplash.com/photos/city-skyline-during-night-time-x5DbmzUBg4g'                // (Optional) URL link to the original artwork or artist's page
     }
   },
   toc: {
