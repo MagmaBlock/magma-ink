@@ -19,7 +19,7 @@ const links: { title: string; link: string; desc: string; img: string }[] = [
   {
     link: "https://blog.moeworld.tech/",
     title: "晓空blog – 空域",
-    img: "https://img.cdn.loliloli.net/content/images/users/V3Q/av_1625277536.png",
+    img: "https://blog.moeworld.tech/wp-content/uploads/2019/07/10_avatar_big_waifu2x_art_noise1_scale_tta_1.png",
     desc: "探索更大的世界",
   },
   {
@@ -153,7 +153,7 @@ const links: { title: string; link: string; desc: string; img: string }[] = [
     title: "满久琦的个人网站",
     desc: "天上如是，地下亦然",
     link: "https://www.manjiuqi.com",
-    img: "https://static.yhdzz.cn/logos/512x512.png",
+    img: "https://cdn.yhdzz.cn/websites/blog/2024/07/b_0b7fb0de4d59b216ada8a36ae807e29c.jpg",
   },
   {
     title: "Pinpe 的云端",
