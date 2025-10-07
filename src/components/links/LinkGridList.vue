@@ -168,10 +168,10 @@ const links: { title: string; link: string; desc: string; img: string }[] = [
     img: "https://blog-dogecdn.lynn6.cn/pic/fb2c42d74892b1e208c0be7af2be20b31627004540489.jpeg",
   },
   {
-    title: "Peter",
-    desc: "无限进步",
+    title: "PeterTech",
+    desc: "无限进步！",
     link: "https://peter267.github.io/",
-    img: "https://wmimg.com/i/1169/2024/09/66e8b5d8e0843.jpg",
+    img: "https://wmimg.com/i/1169/2024/09/66ec1739c38a0.png",
   },
   {
     title: "Ethan",
@@ -214,6 +214,12 @@ const links: { title: string; link: string; desc: string; img: string }[] = [
     img: "https://www.hsuii.com/images/1747640853300.png",
     desc: "上班划划水提升自己",
     link: "https://www.hsuii.com/",
+  },
+  {
+    title: "LYEy_isine",
+    desc: "花海无一日，少年踏自来",
+    link: "https://caiyifeng.top/",
+    img: "https://img.cdn1.vip/i/68bbdee513eb9_1757142757.webp",
   },
 ];
 
