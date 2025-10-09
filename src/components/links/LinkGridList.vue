@@ -221,6 +221,12 @@ const links: { title: string; link: string; desc: string; img: string }[] = [
     link: "https://caiyifeng.top/",
     img: "https://img.cdn1.vip/i/68bbdee513eb9_1757142757.webp",
   },
+  {
+    title: "Sumo",
+    desc: "以傲慢和偏执",
+    link: "https://letianpai.osfs.top/",
+    img: "http://q.qlogo.cn/headimg_dl?dst_uin=3888705871&spec=640&img_type=jpg",
+  },
 ];
 
 const randomLinks = computed(() => links.sort(() => Math.random() - 0.5));
