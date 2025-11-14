@@ -40,13 +40,12 @@ const links: { title: string; link: string; desc: string; img: string }[] = [
     img: "https://kokodayo.site/usr/uploads/fixed/head_640.jpg",
     desc: "Qine的个人小站",
   },
-  // {
-  //   // 2024年7月18日 打不开
-  //   link: "https://blog.awsl.love/",
-  //   title: "悲催の记事账簿",
-  //   img: "https://blog.awsl.love/logo2.webp",
-  //   desc: "– 水能载舟，亦能覆舟 –",
-  // },
+  {
+    link: "https://blog.awsl.love/",
+    title: "悲催の记事账簿",
+    img: "https://blog.awsl.love/logo2.webp",
+    desc: "– 水能载舟，亦能覆舟 –",
+  },
   {
     link: "https://www.moec.top",
     title: "老兄de博客",
