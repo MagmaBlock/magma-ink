@@ -7,6 +7,7 @@
       :desc="link.desc"
       :link="link.link"
       :img="link.img"
+      :premium="link.premium"
     />
   </div>
 </template>
@@ -15,7 +16,13 @@
 import { computed } from "vue";
 import LinkCard from "./LinkCard.vue";
 
-const links: { title: string; link: string; desc: string; img: string }[] = [
+const links: {
+  title: string;
+  link: string;
+  desc: string;
+  img: string;
+  premium?: boolean;
+}[] = [
   {
     link: "https://blog.moeworld.tech/",
     title: "晓空blog – 空域",
@@ -195,6 +202,7 @@ const links: { title: string; link: string; desc: string; img: string }[] = [
     desc: "这是什么？好吃的？吃一口",
     link: "https://blog.linqihu.top",
     img: "https://blog.linqihu.top/pictures/智乃天下第一.jpg",
+    premium: true,
   },
   {
     title: "AULyPcのBlog",
