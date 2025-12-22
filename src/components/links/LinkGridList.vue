@@ -120,7 +120,7 @@ const links: {
   //   desc: "Like tears in rain.",
   // },
   {
-    link: "https://cblog.5252025.xyz/",
+    link: "https://blog.5252025.xyz/",
     title: "CasecoRI",
     img: "https://blog.5252025.xyz/img/icon-256.png",
     desc: "高智熵博主",
