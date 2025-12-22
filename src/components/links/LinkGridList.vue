@@ -120,9 +120,9 @@ const links: {
   //   desc: "Like tears in rain.",
   // },
   {
-    link: "http://cystee.github.io/",
+    link: "https://cblog.5252025.xyz/",
     title: "CasecoRI",
-    img: "https://cystee.github.io/avatar.png",
+    img: "https://blog.5252025.xyz/img/icon-256.png",
     desc: "高智熵博主",
   },
   // {
@@ -174,10 +174,10 @@ const links: {
     img: "https://blog-dogecdn.lynn6.cn/pic/fb2c42d74892b1e208c0be7af2be20b31627004540489.jpeg",
   },
   {
-    title: "PeterTech",
+    title: "Peter267",
     desc: "无限进步！",
     link: "https://peter267.github.io/",
-    img: "https://wmimg.com/i/1169/2024/09/66ec1739c38a0.png",
+    img: "https://wmimg.com/i/1169/2024/09/66e8b5d8e0843.jpg",
   },
   {
     title: "Ethan",
