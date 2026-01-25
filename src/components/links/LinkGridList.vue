@@ -211,7 +211,7 @@ const links: {
     img: "https://blog.aulypc0x0.online/favicon/favicon_amiya.webp",
   },
   {
-    title: "imxizhenのBlog",
+    title: "imxizhen",
     img: "https://q1.qlogo.cn/g?b=qq&nk=89525295&s=640",
     desc: "永远相信美好的事情即将发生.",
     link: "https://www.imxizhen.asia",
