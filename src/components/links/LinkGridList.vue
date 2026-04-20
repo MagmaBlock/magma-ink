@@ -234,6 +234,12 @@ const links: {
     link: "https://letianpai.osfs.top/",
     img: "http://q.qlogo.cn/headimg_dl?dst_uin=3888705871&spec=640&img_type=jpg",
   },
+  {
+    title: "少年工作室",
+    desc: "彼方尚有荣光在.",
+    link: "https://www.snkj.xyz",
+    img: "https://pan.snkj.xyz/view.php/a7033c427c88302b468fbc4257f4125b.jpg",
+  },
 ];
 
 const randomLinks = computed(() => links.sort(() => Math.random() - 0.5));
