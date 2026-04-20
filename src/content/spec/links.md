@@ -8,7 +8,7 @@ category: ""
 draft: false
 ---
 
-[中文博客列表导航](https://zhblogs.ohyee.cc/)
+[集博栈](https://www.zhblogs.net/)
 
 ## 友联添加和维持要求
 
