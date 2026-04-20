@@ -51,7 +51,7 @@ export const linkGroups: LinkGroup[] = [
         link: 'https://jixiejidiguan.top/',
         title: '画的个人记录',
         img: 'https://jixiejidiguan.top/favicon.ico',
-        desc: '其实没有你们想的那么复杂！',
+        desc: '一条咸鱼躺平养成计划！',
       },
       {
         link: 'https://blog.iamsjy.com/',
@@ -73,7 +73,7 @@ export const linkGroups: LinkGroup[] = [
       },
       {
         link: 'https://blognas.hwb0307.com',
-        title: '浮云翩迁之间',
+        title: 'Bensz',
         img: 'https://blognas.hwb0307.com/logo.jpg',
         desc: '百代繁华一朝都，谁非过客；千秋明月吹角寒，花是主人。',
       },
@@ -135,13 +135,13 @@ export const linkGroups: LinkGroup[] = [
         title: 'Ethan',
         desc: "Don't stay awake for too long.",
         link: 'https://hanlife02.com',
-        img: 'https://hanlife02.com/api/v2/objects/avatar/evcvs61h0ajgvoai07.jpeg',
+        img: 'https://hanlife02.com/avatar.svg',
       },
       {
         link: 'https://blog.woo.moe',
-        title: 'Nikoのblog',
-        img: 'https://data.woo.moe/img/ico/blog200.png',
-        desc: '雨嶼沫',
+        title: 'Hinai',
+        img: 'https://data.woo.moe/image/ico/104491469_0_r.png',
+        desc: '曇花一現',
       },
       {
         title: '林七湖的日记站',
@@ -160,7 +160,7 @@ export const linkGroups: LinkGroup[] = [
         title: 'LYEy_isine',
         desc: '花海无一日，少年踏自来',
         link: 'https://caiyifeng.top/',
-        img: 'https://img.cdn1.vip/i/68bbdee513eb9_1757142757.webp',
+        img: 'https://caiyifeng.top/avatar.webp',
       },
       {
         title: '少年工作室',
