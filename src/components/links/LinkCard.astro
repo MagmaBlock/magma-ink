@@ -12,6 +12,8 @@ interface Props {
 
 const { title, link, desc, img, style = 'default' } = Astro.props;
 const isPremium = style === 'premium';
+const initial = title.charAt(0);
+const hasImg = img && img.trim() !== '';
 ---
 
 <div
@@ -19,14 +21,24 @@ const isPremium = style === 'premium';
   class:list={[{ 'font-serif': isPremium }]}
 >
   <div
-    class="w-24 h-24 flex-shrink-0 rounded-lg overflow-hidden bg-zinc-100 dark:bg-zinc-900"
+    class="w-24 h-24 flex-shrink-0 rounded-lg overflow-hidden bg-zinc-200 dark:bg-zinc-800 relative"
   >
-    {img && (
+    <!-- 骨架屏占位：加载中脉冲，失败/无图时显示静态首字母 -->
+    <div
+      class="absolute inset-0 flex items-center justify-center text-zinc-300 dark:text-zinc-600 text-3xl font-bold animate-pulse select-none"
+      class:list={[{ 'opacity-0': !hasImg }]}
+    >
+      {hasImg ? initial : <Icon name="material-symbols:link" class="text-3xl" />}
+    </div>
+
+    {hasImg && (
       <img
         src={img}
         alt="站点头像"
-        class="w-full h-full object-cover"
-        onerror="this.style.display='none'"
+        class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-300"
+        loading="lazy"
+        onload="this.style.opacity='1'; this.previousElementSibling.style.opacity='0'"
+        onerror="this.style.display='none'; this.previousElementSibling.classList.remove('animate-pulse')"
       />
     )}
   </div>

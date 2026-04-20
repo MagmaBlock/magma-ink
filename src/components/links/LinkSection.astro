@@ -11,7 +11,7 @@ const { title, links } = Astro.props;
 ---
 
 <div class="link-section mb-8">
-  <h2 class="text-lg font-bold mb-4 text-neutral-700 dark:text-neutral-200">{title}</h2>
+  <h2 class="text-xl font-bold mb-4 text-neutral-700 dark:text-neutral-200">{title}</h2>
   <div class="link-section-grid grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-8 my-4">
     {links.map((link) => (
       <LinkCard
