@@ -1,0 +1,55 @@
+---
+import { Icon } from 'astro-icon/components';
+import type { LinkStyle } from '../../data/links';
+
+interface Props {
+  title: string;
+  link: string;
+  desc: string;
+  img?: string;
+  style?: LinkStyle;
+}
+
+const { title, link, desc, img, style = 'default' } = Astro.props;
+const isPremium = style === 'premium';
+---
+
+<div
+  class="flex flex-nowrap items-stretch h-24 gap-5 rounded-[var(--radius-large)]"
+  class:list={[{ 'font-serif': isPremium }]}
+>
+  <div
+    class="w-24 h-24 flex-shrink-0 rounded-lg overflow-hidden bg-zinc-100 dark:bg-zinc-900"
+  >
+    {img && (
+      <img
+        src={img}
+        alt="站点头像"
+        class="w-full h-full object-cover"
+        onerror="this.style.display='none'"
+      />
+    )}
+  </div>
+  <div class="grow w-full flex flex-col justify-center gap-1">
+    <div
+      class="font-bold transition"
+      class:list={[
+        isPremium ? 'text-yellow-600' : 'text-neutral-700 dark:text-neutral-200',
+      ]}
+    >
+      {title}
+    </div>
+    <div class="text-50 text-sm font-medium mb-1">{desc}</div>
+  </div>
+  <a
+    href={link}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="flex btn-regular w-16 rounded-lg bg-[var(--enter-btn-bg)] hover:bg-[var(--enter-btn-bg-hover)] active:bg-[var(--enter-btn-bg-active)] active:scale-95"
+  >
+    <Icon
+      name="material-symbols:chevron-right-rounded"
+      class="transition text-[var(--primary)] text-3xl mx-auto"
+    />
+  </a>
+</div>
