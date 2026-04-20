@@ -42,12 +42,6 @@ export const linkGroups: LinkGroup[] = [
         desc: 'Qine的个人小站',
       },
       {
-        link: 'https://blog.awsl.love/',
-        title: '悲催の记事账簿',
-        img: 'https://blog.awsl.love/logo2.webp',
-        desc: '– 水能载舟，亦能覆舟 –',
-      },
-      {
         link: 'https://www.moec.top',
         title: '老兄de博客',
         img: 'https://www.moec.top/logo.webp',
@@ -108,12 +102,6 @@ export const linkGroups: LinkGroup[] = [
         desc: '写代码的医学牲',
       },
       {
-        link: 'https://henrywhu.cn/',
-        title: 'Henry Moreau',
-        img: 'https://bu.dusays.com/2024/06/28/667e684e0adbe.png',
-        desc: 'Student / Designer / Dreamchaser',
-      },
-      {
         link: 'https://zkpeace.com/',
         title: 'Zkpeace',
         desc: 'nothing to say.',
@@ -156,23 +144,11 @@ export const linkGroups: LinkGroup[] = [
         desc: '雨嶼沫',
       },
       {
-        link: 'https://sbsb.life',
-        title: 'Tanの笔记',
-        img: 'https://pic.imgdb.cn/item/637dbff316f2c2beb1d0d922.jpg',
-        desc: '一直快乐',
-      },
-      {
         title: '林七湖的日记站',
         desc: '这是什么？好吃的？吃一口',
         link: 'https://blog.linqihu.top',
         img: 'https://blog.linqihu.top/pictures/智乃天下第一.jpg',
         style: 'premium',
-      },
-      {
-        title: 'AULyPcのBlog',
-        desc: '今日も生きててえらい ☁',
-        link: 'https://blog.aulypc0x0.online/',
-        img: 'https://blog.aulypc0x0.online/favicon/favicon_amiya.webp',
       },
       {
         title: 'imxizhen',
@@ -181,22 +157,10 @@ export const linkGroups: LinkGroup[] = [
         link: 'https://www.imxizhen.cn/',
       },
       {
-        title: '划水',
-        img: 'https://www.hsuii.com/images/1747640853300.png',
-        desc: '上班划划水提升自己',
-        link: 'https://www.hsuii.com/',
-      },
-      {
         title: 'LYEy_isine',
         desc: '花海无一日，少年踏自来',
         link: 'https://caiyifeng.top/',
         img: 'https://img.cdn1.vip/i/68bbdee513eb9_1757142757.webp',
-      },
-      {
-        title: 'Sumo',
-        desc: '以傲慢和偏执',
-        link: 'https://letianpai.osfs.top/',
-        img: 'http://q.qlogo.cn/headimg_dl?dst_uin=3888705871&spec=640&img_type=jpg',
       },
       {
         title: '少年工作室',
