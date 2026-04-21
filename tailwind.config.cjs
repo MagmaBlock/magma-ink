@@ -10,5 +10,8 @@ module.exports = {
       },
     },
   },
+  blocklist: [
+    '[calculator://]',
+  ],
   plugins: [require("@tailwindcss/typography")],
 }
