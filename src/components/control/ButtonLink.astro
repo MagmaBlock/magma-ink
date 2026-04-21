@@ -1,10 +1,10 @@
 ---
 interface Props {
-  badge?: string
-  url?: string
-  label?: string
+	badge?: string;
+	url?: string;
+	label?: string;
 }
-const { badge, url, label } = Astro.props
+const { badge, url, label } = Astro.props;
 ---
 <a href={url} aria-label={label}>
     <button
@@ -31,9 +31,9 @@ const { badge, url, label } = Astro.props
                 <slot></slot>
             </div>
             { badge !== undefined && badge !== null && badge !== '' &&
-                <div class="transition h-7 ml-4 min-w-[2rem] rounded-lg text-sm font-bold
+                <div class="transition px-2 h-7 ml-4 min-w-[2rem] rounded-lg text-sm font-bold
                     text-[var(--btn-content)] dark:text-[var(--deep-text)]
-                    bg-[oklch(0.95_0.025_var(--hue))] dark:bg-[var(--primary)]
+                    bg-[var(--btn-regular-bg)] dark:bg-[var(--primary)]
                     flex items-center justify-center">
                     { badge }
                 </div>
