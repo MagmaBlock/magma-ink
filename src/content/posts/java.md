@@ -17,7 +17,9 @@ tags:
 
 #### 我是 Windows 系统
 
-- **Minecraft 1.20.5 及以上版本**：使用 Java 21
+- **Minecraft 26.1+**：使用 Java 25
+  - [AdoptiumOpenJDK 25 清华源](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/25/jre/x64/windows/)
+- **Minecraft 1.20.5 - 26.0**：使用 Java 21
   - [AdoptiumOpenJDK 21 清华源](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/21/jre/x64/windows/)
 - **Minecraft 1.18 - 1.20.4**：使用 Java 17
   - [AdoptiumOpenJDK 17 清华源](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/17/jre/x64/windows/)
@@ -26,7 +28,9 @@ tags:
 
 #### 我是 macOS 系统
 
-- **Minecraft 1.20.5 及以上版本**：使用 Java 21
+- **Minecraft 26.1+**：使用 Java 25
+  - [AdoptiumOpenJDK 25 清华源](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/25/jre/x64/mac/)
+- **Minecraft 1.20.5 - 26.0**：使用 Java 21
   - [AdoptiumOpenJDK 21 清华源](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/21/jre/x64/mac/)
 - **Minecraft 1.18 - 1.20.4**：使用 Java 17
   - [AdoptiumOpenJDK 17 清华源](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/17/jre/x64/mac/)
@@ -41,6 +45,7 @@ tags:
 
 注：下列镜像站部分只收录 JDK，通常适合开发者使用。JDK 不但可以运行 Java 程序（如 Minecraft），还可以用于开发。
 
+- [清华大学开源软件镜像站 - Adoptium 25](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/25/)
 - [清华大学开源软件镜像站 - Adoptium 21](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/21/)
 - [清华大学开源软件镜像站 - Adoptium 17](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/17/jre/)
 - [清华大学开源软件镜像站 - Adoptium 8](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/8/jre/)
