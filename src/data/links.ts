@@ -108,10 +108,10 @@ export const linkGroups: LinkGroup[] = [
         img: 'https://raw.githubusercontent.com/Uzizkp/jscdn/main/blog/img/beauty_1647190656575.jpg',
       },
       {
-        title: '满久琦的个人网站',
+        title: '小满的墨水瓶',
         desc: '天上如是，地下亦然',
-        link: 'https://www.manjiuqi.com',
-        img: 'https://cdn.yhdzz.cn/websites/blog/2024/07/b_0b7fb0de4d59b216ada8a36ae807e29c.jpg',
+        link: 'https://www.yhdzz.cn',
+        img: 'https://static.yhdzz.cn/imgs/xiaoman1221/512x512.png',
       },
       {
         title: 'Pinpe 的云端',
