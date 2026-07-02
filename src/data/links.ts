@@ -148,7 +148,6 @@ export const linkGroups: LinkGroup[] = [
         desc: '这是什么？好吃的？吃一口',
         link: 'https://blog.linqihu.top',
         img: 'https://blog.linqihu.top/pictures/智乃天下第一.jpg',
-        style: 'premium',
       },
       {
         title: 'imxizhen',
