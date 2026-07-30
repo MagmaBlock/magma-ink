@@ -51,7 +51,6 @@ Tip: 长时间无法打开、多次复查已不符合要求的网站会被移动
 - 摆渡娘 (www.baiduniang.com) SSL 过期数月，但站点仍在运行，恢复正常后将会恢复友联。
 - [无名博客](https://wuminboke.site/) 站点没有内容 / 故障
 - [不可方思](https://irr.ink/) 2025 年 3 月 18 日无法打开
-- [Eucalyptus](https://www.limingliang.top) 2025 年 3 月 18 日无法打开
 - [悲催の记事账簿](https://blog.awsl.love/) 2025 年 4 月 21 日测试返回 HTTP 525 (SSL 握手失败)
 - [Henry Moreau](https://henrywhu.cn/) 2025 年 4 月 21 日测试 DNS 解析不存在
 - [Tanの笔记](https://sbsb.life) 2025 年 4 月 21 日测试 DNS 解析不存在

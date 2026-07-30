@@ -167,6 +167,12 @@ export const linkGroups: LinkGroup[] = [
         link: 'https://www.snkj.xyz',
         img: 'https://pan.snkj.xyz/view.php/a7033c427c88302b468fbc4257f4125b.jpg',
       },
+      {
+        title: 'Eucalyptus',
+        desc: '我亦无他，唯手熟尔',
+        link: 'https://blog.eucalyptus.cc/',
+        img: 'https://blog.eucalyptus.cc/favicon.avif',
+      },
     ],
   },
 ];
