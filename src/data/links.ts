@@ -56,7 +56,7 @@ export const linkGroups: LinkGroup[] = [
       {
         link: 'https://blog.iamsjy.com/',
         title: 'Tony’s Blog',
-        img: 'https://blog.iamsjy.com/assets/favicon.jpg',
+        img: 'https://weavatar.com/avatar/05133c94d51c8003519bd17e55ddcd33',
         desc: '一个萌新的博客',
       },
       {
@@ -128,8 +128,8 @@ export const linkGroups: LinkGroup[] = [
       {
         title: 'Peter267',
         desc: '无限进步！',
-        link: 'https://peter267.github.io/',
-        img: 'https://wmimg.com/i/1169/2024/09/66e8b5d8e0843.jpg',
+        link: 'https://blog.peter267.com',
+        img: 'https://weavatar.com/avatar/38aff398898177c9263da0e79f294cac6b035b02be2d75d4d5c215d4c2dc1927',
       },
       {
         title: 'Ethan',
